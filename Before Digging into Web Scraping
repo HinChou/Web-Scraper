@@ -13,8 +13,9 @@ neatly formatted array by looking at the JavaScript for the embedded Google Map 
 try to think of other sources you could get this information from. Is there another website with the same data? 
 Is this website displaying data that it scraped or aggregated from another website?
 
-
 *** From "Web Scraping with Python by Ryan Mitchell (O’Reilly). Copyright 2015 Ryan Mitchell, 978-1-491-91029-0.”
+
+
 
 The common reason Why we need the "Web Scraping" is data gathering. But instead of start digging into it, it's important to 
 take a deep breath and think of alternatives. 
