@@ -12,7 +12,9 @@ import re
 import datetime
 
 def getPitchVSBatterTable(season, page): 
-    url = 'http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season='+str(season)+'&sort_order=%27desc%27&sort_column=%27fpct%27&stat_type=fielding&page_type=SortablePlayer&game_type=%27R%27&player_pool=ALL&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP='+str(page)+'&recPP=50'
+    url = 'http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season='+str(season)+
+    '&sort_order=%27desc%27&sort_column=%27fpct%27&stat_type=fielding&page_type=SortablePlayer'+
+    '&game_type=%27R%27&player_pool=ALL&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP='+str(page)+'&recPP=50'
     resp = urllib2.urlopen(url).read()
     
     try:
