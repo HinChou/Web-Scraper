@@ -48,9 +48,7 @@ def getPitcherVSBatterTable(season, page):
             
     return(d_f)
 
-page = range(1,27)
 
-season = 2015   
 
 def loopMatrix(season, page):
     fin_df = pd.DataFrame()
@@ -65,8 +63,13 @@ def loopMatrix(season, page):
             
     return(fin_df)
                 
-                
-                
-                
+
+#Initialized page and season               
+page = range(1,27)
+season = 2015                   
+
+# Call function "loopMatrix" to get the well formatted data
+data_2015 = loopMatrix(season, page)
+
                 
                 
