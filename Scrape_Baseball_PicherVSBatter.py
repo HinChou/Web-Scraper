@@ -11,10 +11,11 @@ import urllib2
 import re
 import datetime
 
-def getPitchVSBatterTable(season, page): 
+def getPitcherVSBatterTable(season, page): 
     url = 'http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season='+str(season)+
     '&sort_order=%27desc%27&sort_column=%27fpct%27&stat_type=fielding&page_type=SortablePlayer'+
     '&game_type=%27R%27&player_pool=ALL&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP='+str(page)+'&recPP=50'
+    
     resp = urllib2.urlopen(url).read()
     
     try:
@@ -56,8 +57,8 @@ def loopMatrix(season, page):
 #    for k in range(len(season)):
  #       print('season: ' + str(season[k]))
     for i in range(len(page)):
- #           df_i = getPitchVSBatterTable(season[k], pitchers_ids[j], teams_ids[i])
-            df_i = getPitchVSBatterTable(season, page[i])
+ #           df_i = getPitcherVSBatterTable(season[k], pitchers_ids[j], teams_ids[i])
+            df_i = getPitcherVSBatterTable(season, page[i])
             if df_i.empty:
                 continue
             fin_df = df_i if fin_df.empty else fin_df.append(df_i)    
