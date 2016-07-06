@@ -1,0 +1,16 @@
+The common reason Why we need the "Web Scraping" is data gathering. But instead of start digging into it, it's important to 
+take a deep breath and think of alternatives. 
+
+
+
+As the paragraph mentioned in the "Before Digging into Web Scraping", it is common and possible to find a text based html, 
+which is even more convenient than parsing a well-formatted orginal html. 
+For this, a common method is using "inspect" option in the browser like Chrome, to find those text based html or data based html.
+
+
+In sum: 
+
+1st, try to find the pure data page using "inspect" option in the browser like Chrome.
+
+2nd, try to parse the useful data by analyzing the html structure of the webpage, 
+which can be done by using beautifulsoap module in Python.
