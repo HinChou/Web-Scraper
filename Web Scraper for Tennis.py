@@ -90,7 +90,7 @@ def GetMatchupInfo(date = "20150521"):
                 info_data = info_data.append(player1_info)
                 info_data = info_data.append(player2_info)
         ########################################################################
-            # It is prosible to append two in the sametime ?
+            # Is it prosible to append two in the sametime ?
         ######################################################################## 
                 info_data = info_data[column_names]
             
