@@ -8,7 +8,7 @@ Created on Fri Jan 29 12:09:20 2016
 import pandas as pd
 import urllib2
 import re
-import datetime
+
 
 def getPitcherVSBatterTable(season, page): 
     url = 'http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season='+str(season)+
