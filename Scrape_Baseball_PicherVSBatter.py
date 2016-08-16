@@ -6,7 +6,6 @@ Created on Fri Jan 29 12:09:20 2016
 """
 
 import pandas as pd
-from BeautifulSoup import BeautifulSoup
 import urllib2
 import re
 import datetime
@@ -28,7 +27,7 @@ def getPitcherVSBatterTable(season, page):
     content = content[0]
     rows = re.findall('\{(.+?)\}', content)   
     
-    #creates table heading
+    #create table heading
     r_0 = rows[0]
     r_0 = r_0.replace('""', '"NA"')
     cols = re.findall('"(.+?)":"(.+?)"', r_0)
@@ -64,11 +63,11 @@ def loopMatrix(season, page):
     return(fin_df)
                 
 
-#Initialized page and season               
+#initialize page and season               
 page = range(1,27)
 season = 2015                   
 
-# Call function "loopMatrix" to get the well formatted data
+# call function "loopMatrix" to get the well formatted data
 data_2015 = loopMatrix(season, page)
 
                 
