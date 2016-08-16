@@ -2,7 +2,7 @@
 """
 Created on Thu May 12 16:08:53 2016
 
-@author: SIA
+@author: Hin
 """
 
 from urllib.request import urlopen
