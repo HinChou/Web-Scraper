@@ -98,4 +98,3 @@ def GetMatchupInfo(date = "20150521"):
             
         
 
-GetMatchupInfo("20100218")       
