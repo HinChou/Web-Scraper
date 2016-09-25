@@ -43,6 +43,9 @@ def GetMatchupInfo(date = "20150521"):
            # print (i["href"])
             url = "http://feeds.donbest.com/"+ str(i["href"])
             href_link.append(url)
+            #list comprehesion: delete the "href_link = []" above, and type: 
+            # const_str = "http://feeds.donbest.com/" 
+            # href_link= [(const_str + str(i["href"])) for i in test]
     ########################################################################
         # If there is no summary link for that day
     ########################################################################             
