@@ -67,7 +67,7 @@ def getHouseData(station, house_type, num_page):
     return(house_result)
 # house = getHouseData('dongchangzhanditiekou', 'j1', 5)
 
-# Sorting method
+# Sorting methods
 def sortHouseData(house_tata, by_area = True, by_rent = False):
     if by_area & by_rent == False:
         house_tata.sort_values('Area(㎡)', ascending = False, inplace = True)
