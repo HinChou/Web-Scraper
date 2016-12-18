@@ -9,7 +9,7 @@ Pitcher and batter matchup data from mlb.com
 2. Web Scraper for Houses for Rent Website:
 Houses for rent data from http://www.58.com
 
-I want to aggregate information of several websites together using multiprocessing module.
+I want to aggregate information from several websites using multiprocessing module.
 
 # Thoughts:
 * DataFrame & Series object have a nice feature about handling the missing data than list, array, dict.
