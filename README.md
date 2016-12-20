@@ -1,15 +1,15 @@
 # Web-Scraper
 
-1. Web Scraper for Tennis:
+1. Tennis Data:
 Las Vegas Opening and Closing Line of Tennis from Donbest.com
 
-2. Web Scraper for MLB:
+2. MLB Data:
 Pitcher and batter matchup data from mlb.com
 
-2. Web Scraper for Houses for Rent Website:
+2. Houses for Rent Data:
 Houses for rent data from http://www.58.com
 
-4. Web Scraper for teacher career information: Using multiprocessing module
+4. Teacher Career Information Data: Using multiprocessing module
 Aggregate information from several websites
 
 Why multiprocessing? Differences between multiprocessing and threading.
