@@ -17,8 +17,7 @@ import re
 # SCNU 华师
 #url = "http://career.scnu.edu.cn/Recruitment/index"
 #url= 'http://career.scnu.edu.cn/Thinkcareer/index.php/Recruitment/select'
-def teacherCareerSCNU(url, today, yesterday):
-    
+def teacherCareerSCNU(url, today, yesterday):   
     try:
         url_info = urlopen(url)
         career_info = BeautifulSoup(url_info, "lxml")
@@ -170,8 +169,7 @@ def teacherCareerHTJS(url, today, yesterday):
                                                                      
 ## 罗湖教育应用网
 #url = 'http://www.luohuedu.net/news/zhaopin1.aspx?gonggaofenlei=1'
-def teacherCareerLHJY(url, today, yesterday):
-    
+def teacherCareerLHJY(url, today, yesterday):    
     try:
         luohu_url = urlopen(url)
         luohu_info = BeautifulSoup(luohu_url, "lxml", from_encoding = 'gb18030')
@@ -214,7 +212,6 @@ def teacherCareerLHJY(url, today, yesterday):
 # 中公教育
 #url = 'http://gd.offcn.com/html/jiaoshi/zhaokaoxinxi/'
 def teacherCareerZGJY(url, today, yesterday):
-
     try:
         zhonggong_url = urlopen(url)
         zhonggong_info = BeautifulSoup(zhonggong_url, "lxml")
