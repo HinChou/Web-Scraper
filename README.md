@@ -9,8 +9,8 @@ Pitcher and batter matchup data from mlb.com
 2. Houses for Rent Data:
 Houses for rent data from http://www.58.com
 
-4. Teacher Employment Information Data: Using multiprocessing module
-Aggregate information from several websites
+4. Teacher Employment Information Data: 
+Using multiprocessing module to aggregate information from several websites
 
 Why multiprocessing? Differences between multiprocessing and threading.
 
