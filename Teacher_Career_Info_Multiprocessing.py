@@ -172,6 +172,7 @@ def teacherCareerHTJS(url, today, yesterday):
 def teacherCareerLHJY(url, today, yesterday):    
     try:
         luohu_url = urlopen(url)
+        # Special encoding method for certain Chinese websites
         luohu_info = BeautifulSoup(luohu_url, "lxml", from_encoding = 'gb18030')
         luohu_info = luohu_info.findAll(name = 'td')
         
@@ -189,7 +190,6 @@ def teacherCareerLHJY(url, today, yesterday):
            
         luohu_views = 'Unknown'
         luohu_jobid = 'Unknown'
-        
         
         luohu_career = pd.DataFrame({'编号': luohu_jobid, '单位名称': luohu_company, 
                                      '招聘职位': luohu_job, '发布时间': luohu_date, 
