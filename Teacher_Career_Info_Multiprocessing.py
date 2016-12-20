@@ -5,7 +5,6 @@ Created on Mon Dec 19 21:10:40 2016
 @author: hinnc
 """
 
-
 from urllib.request import urlopen
 from urllib.error import URLError
 from bs4 import BeautifulSoup
