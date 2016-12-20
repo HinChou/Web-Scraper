@@ -9,10 +9,10 @@ Pitcher and batter matchup data from mlb.com
 2. Web Scraper for Houses for Rent Website:
 Houses for rent data from http://www.58.com
 
-4. Web Scraper for Teacher Career Information: Using Multiprocessing Module
+4. Web Scraper for teacher career information: Using multiprocessing module
 Aggregate information from several websites
 
-Why multiprocessing? Differences betweent multiprocessing and threading.
+Why multiprocessing? Differences between multiprocessing and threading.
 
 # Thoughts:
 * DataFrame & Series object have a nice feature about handling the missing data than list, array, dict.
