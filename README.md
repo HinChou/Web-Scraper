@@ -12,7 +12,7 @@ Houses for rent data from http://www.58.com
 4. Teacher Employment Information Data: 
 Using multiprocessing module to aggregate information from several websites
 
-Why multiprocessing? Differences between multiprocessing and threading.
+Why multiprocessing? Why threading? Differences between multiprocessing and threading.
 
 # Thoughts:
 * DataFrame & Series object have a nice feature about handling the missing data than list, array, dict.
