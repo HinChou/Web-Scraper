@@ -1,16 +1,16 @@
 # Web-Scraper Projects
 
 1. Tennis Data:
-Las Vegas Opening and Closing Line of Tennis from Donbest.com
+Las Vegas Opening and Closing Line of Tennis from donbest.com
 
 2. MLB Data:
-Pitcher and batter matchup data from mlb.com
+Pitcher and Batter Matchup Data from mlb.com
 
 2. Houses for Rent Data:
-Houses for rent data from http://www.58.com
+Houses for Rent Data from http://www.58.com
 
 4. Teacher Employment Information Data: 
-Using multiprocessing module to aggregate information from several websites
+Using multiprocessing Module to Aggregate Information from Several Websites
 
 Why multiprocessing? Why threading? Differences between multiprocessing and threading.
 
