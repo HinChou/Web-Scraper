@@ -13,7 +13,9 @@ Houses for Rent Data from http://www.58.com
 Using multiprocessing Module to Aggregate Information from Several Websites
 
 Questions:
+
 Why multiprocessing? Why threading? Differences between multiprocessing and threading.
+
 What is the best way to build a "exe"(application) file by Python? (Tried "py2exe", "PyInstaller", "cx-freeze". All have there own flaws when I imported many module)
 
 # Thoughts:
