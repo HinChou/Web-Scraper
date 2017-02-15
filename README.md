@@ -12,11 +12,10 @@ Houses for Rent Data from http://www.58.com
 4. Teacher Employment Information Data: 
 Using multiprocessing Module to Aggregate Information from Several Websites
 
+
 Questions:
-
-Why multiprocessing? Why threading? Differences between multiprocessing and threading.
-
-What is the best way to build a "exe"(application) file by Python? (Tried "py2exe", "PyInstaller", "cx-freeze". All have there own flaws when I imported many module)
+* Why multiprocessing? Why threading? Differences between multiprocessing and threading.
+* What is the best way to build a "exe"(application) file by Python? (Tried "py2exe", "PyInstaller", "cx-freeze". All have there own flaws when I imported many module)
 
 # Thoughts:
 * DataFrame & Series object have a nice feature about handling the missing data than list, array, dict.
