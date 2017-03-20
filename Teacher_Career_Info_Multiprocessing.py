@@ -306,7 +306,7 @@ def jobCrawler(url):
     yesterday = (datetime.now().date() - timedelta(1)).strftime('%Y-%m-%d')
     
     # All urls
-    scnu= 'http://career.scnu.edu.cn/Thinkcareer/index.php/Recruitment/select'
+    scnu = 'http://career.scnu.edu.cn/Thinkcareer/index.php/Recruitment/select'
     szjs = 'http://www.shenzhenjiaoshi.com/zhaopin/'
     htjs = 'http://www.hteacher.net/shenzhen/jiaoshizhaopin/zp/'
     lhjy = 'http://www.luohuedu.net/news/zhaopin1.aspx?gonggaofenlei=1'
