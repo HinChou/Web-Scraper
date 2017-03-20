@@ -343,7 +343,7 @@ def jobCrawler(url):
 #######################################
 if __name__ == '__main__':    
     # All urls
-    scnu_url= 'http://career.scnu.edu.cn/Thinkcareer/index.php/Recruitment/select'
+    scnu_url = 'http://career.scnu.edu.cn/Thinkcareer/index.php/Recruitment/select'
     szjs_url = 'http://www.shenzhenjiaoshi.com/zhaopin/'
     htjs_url = 'http://www.hteacher.net/shenzhen/jiaoshizhaopin/zp/'
     lhjy_url = 'http://www.luohuedu.net/news/zhaopin1.aspx?gonggaofenlei=1'
