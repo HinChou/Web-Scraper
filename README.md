@@ -18,6 +18,6 @@ Questions:
 * What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules)
 
 # Thoughts:
-* DataFrame & Series object have a nice feature about handling the missing data than list, array, dict.
+* DataFrame & Series object have a nice feature about handling the missing data than list, array and dict.
 * Exception handlings are important in web scraping.
 * For avoiding blocking by servers (hit limits), try to include a sleep time of web crawler and fake dynamic ip. 
