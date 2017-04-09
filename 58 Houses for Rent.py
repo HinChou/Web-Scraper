@@ -10,7 +10,8 @@ from urllib.request import urlopen
 from urllib.error import URLError
 import pandas as pd
 import re
-import matplotlib.pyplot as plt
+from matplotlib import style, pyplot as plt
+style.use('ggplot')
 
 
 def getURL(station, house_type, page):
