@@ -55,7 +55,7 @@ def teacherCareerSCNU(url, today, yesterday):
         
         teacher_table = career_table.ix[bool_table].reset_index(drop=True)
         
-        teacher_table.sort_values('发布时间', ascending = False, inplace = True)
+        # teacher_table.sort_values('发布时间', ascending = False, inplace = True)
         
         # Only care about '深圳|广州'
         gzsz_career = teacher_table['单位名称'].str.contains('深圳|广州')
@@ -115,7 +115,7 @@ def teacherCareerSZJS(url, today, yesterday):
             print('Catch An Exception: ', e, '\n', 'URL: ', url)
     
     shenzhen_career = pd.concat(shenzhen_career, ignore_index = True)    
-    shenzhen_career.sort_values('发布时间', ascending = False, inplace = True)
+    # shenzhen_career.sort_values('发布时间', ascending = False, inplace = True)
     
     # Extract the career info only was issued yesterday and today
     new_shenzhen_career = shenzhen_career[(shenzhen_career['发布时间'] == today) |
@@ -153,7 +153,7 @@ def teacherCareerHTJS(url, today, yesterday):
                                        '招聘职位': huatu_job, '发布时间': huatu_date, 
                                        '浏览量': huatu_views, '网址': huatu_link}) 
         
-        huatu_career.sort_values('发布时间', ascending = False, inplace = True)
+        # huatu_career.sort_values('发布时间', ascending = False, inplace = True)
     
         # Extract the career info only was issued yesterday and today
         new_huatu_career = huatu_career[(huatu_career['发布时间'] == today) |
@@ -195,7 +195,7 @@ def teacherCareerLHJY(url, today, yesterday):
                                      '招聘职位': luohu_job, '发布时间': luohu_date, 
                                      '浏览量': luohu_views, '网址': luohu_link}) 
         
-        luohu_career.sort_values('发布时间', ascending = False, inplace = True)
+        # luohu_career.sort_values('发布时间', ascending = False, inplace = True)
     
         # Extract the career info only was issued yesterday and today
         new_luohu_career = luohu_career[(luohu_career['发布时间'] == today) |
@@ -232,7 +232,7 @@ def teacherCareerZGJY(url, today, yesterday):
                                        '招聘职位': zhonggong_job, '发布时间': zhonggong_date, 
                                        '浏览量': zhonggong_views, '网址': zhonggong_link}) 
          
-        zhonggong_career.sort_values('发布时间', ascending = False, inplace = True)
+        # zhonggong_career.sort_values('发布时间', ascending = False, inplace = True)
     
         # Only care about '深圳|广州'
         gzsz_zhonggong_career = zhonggong_career['单位名称'].str.contains('深圳|广州')
@@ -281,7 +281,7 @@ def teacherCareerZGJS(url, today, yesterday):
         # Delete duplicate rows
         zhonggong_js_career.drop_duplicates(inplace = True)
         
-        zhonggong_js_career.sort_values('发布时间', ascending = False, inplace = True)
+        # zhonggong_js_career.sort_values('发布时间', ascending = False, inplace = True)
     
         # Only care about '深圳|广州'
         gzsz_zhonggong_js_career = zhonggong_js_career['单位名称'].str.contains('深圳|广州')
