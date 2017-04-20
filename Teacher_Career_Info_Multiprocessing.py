@@ -367,7 +367,7 @@ if __name__ == '__main__':
     path = ('C:/Users/hinnc/Desktop/Today_and_Yesterday_Teacher_Employment_' 
             + today + '.xlsx')
     
-    all_new_jobs.to_excel(path, sheet_name='Sheet1', index = False)              
+    all_new_jobs.to_excel(path, sheet_name='Jobs', index = False)              
         
     print('''
           ********************
