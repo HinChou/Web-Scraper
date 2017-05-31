@@ -338,8 +338,7 @@ def jobCrawler(url):
         result = teacherCareerZGJS(zgjs, today, yesterday)
         
     return(result)
-
-        
+    
 #######################################
 if __name__ == '__main__':    
     # All urls
