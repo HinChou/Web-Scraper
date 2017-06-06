@@ -12,7 +12,6 @@ Houses for Rent Data from http://www.58.com
 4. Teacher Employment Information Data: 
 Using multiprocessing Module to Aggregate Information from Several Websites
 
-
 Questions:
 * Why multiprocessing? Why threading? Differences between multiprocessing and threading.
 * What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
