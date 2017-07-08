@@ -351,11 +351,11 @@ if __name__ == '__main__':
     
     urls = [scnu_url, szjs_url, htjs_url, lhjy_url, zgjy_url, zgjs_url]    
     
-    #######################################
+    #*************************************#
     # Multiprocessing: using "with" can allow us without writing "mp.close()" explicitly
     with Pool(processes = 6) as mp:
         data = mp.map(jobCrawler, [url for url in urls])
-    #######################################    
+    #*************************************#    
     # Concatenate all new issue (today and yesterday) jobs
     all_new_jobs = pd.concat(data, ignore_index = True)
     all_new_jobs.sort_values('发布时间', ascending = False, inplace = True)
