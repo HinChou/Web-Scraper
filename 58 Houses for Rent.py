@@ -77,6 +77,7 @@ def sortHouseData(house_tata, by_area = True, by_rent = False):
     elif by_rent & by_area == False:
         house_tata.sort_values('Rent(CNY/Mon)', ascending = True, inplace = True)
         return(house_tata)
+    
     # Sort by_rent first and then by_area    
     elif by_area & by_rent:
         house_tata.sort_values(['Rent(CNY/Mon)', 'Area(㎡)'], 
