@@ -88,5 +88,5 @@ def sortHouseData(house_tata, by_area = True, by_rent = False):
 # Graph of rent and area
 house.hist('Rent(CNY/Mon)')
 
-house.hist('Area(㎡)', bins= 200)
-plt.xlim((0,80))
+house.hist('Area(㎡)', bins = 200)
+plt.xlim((0, 80))
