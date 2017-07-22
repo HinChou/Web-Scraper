@@ -9,5 +9,4 @@ In sum:
 
 1st, try to find the pure data page using "inspect" option in the browser like Chrome.
 
-2nd, try to parse the useful data by analyzing the html structure of the webpage, 
-which can be done by using beautifulsoap module in Python.
+2nd, try to parse the useful data by analyzing the html structure of the webpage, which can be done by using beautifulsoap module in Python.
