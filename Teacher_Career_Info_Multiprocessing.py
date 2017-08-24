@@ -173,7 +173,7 @@ def teacherCareerLHJY(url, today, yesterday):
     try:
         luohu_url = urlopen(url)
         # Special encoding method for certain Chinese websites
-        luohu_info = BeautifulSoup(luohu_url, "lxml", from_encoding = 'gb18030')
+        luohu_info = BeautifulSoup(luohu_url, 'lxml', from_encoding = 'gb18030')
         luohu_info = luohu_info.findAll(name = 'td')
         
         luohu_link = re.findall('<a href=\"(.*?)\" target=', str(luohu_info))
@@ -229,8 +229,8 @@ def teacherCareerZGJY(url, today, yesterday):
         zhonggong_jobid = 'Unknown' 
         
         zhonggong_career = pd.DataFrame({'编号': zhonggong_jobid, '单位名称': zhonggong_company, 
-                                       '招聘职位': zhonggong_job, '发布时间': zhonggong_date, 
-                                       '浏览量': zhonggong_views, '网址': zhonggong_link}) 
+                                         '招聘职位': zhonggong_job, '发布时间': zhonggong_date, 
+                                         '浏览量': zhonggong_views, '网址': zhonggong_link}) 
          
         # zhonggong_career.sort_values('发布时间', ascending = False, inplace = True)
     
@@ -275,8 +275,8 @@ def teacherCareerZGJS(url, today, yesterday):
         zhonggong_js_jobid = 'Unknown' 
         
         zhonggong_js_career = pd.DataFrame({'编号': zhonggong_js_jobid, '单位名称': zhonggong_js_company, 
-                                       '招聘职位': zhonggong_js_job, '发布时间': zhonggong_js_date, 
-                                       '浏览量': zhonggong_js_views, '网址': zhonggong_js_link}) 
+                                            '招聘职位': zhonggong_js_job, '发布时间': zhonggong_js_date, 
+                                            '浏览量': zhonggong_js_views, '网址': zhonggong_js_link}) 
          
         # Delete duplicate rows
         zhonggong_js_career.drop_duplicates(inplace = True)
