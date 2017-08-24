@@ -103,8 +103,8 @@ def teacherCareerSZJS(url, today, yesterday):
             shenzhen_jobid = 'Unknown'
 
             shenzhen_table = pd.DataFrame({'编号': shenzhen_jobid, '单位名称': shenzhen_company, 
-                                       '招聘职位': shenzhen_job, '发布时间': shenzhen_date, 
-                                       '浏览量': shenzhen_views, '网址': shenzhen_link}) 
+                                           '招聘职位': shenzhen_job, '发布时间': shenzhen_date, 
+                                           '浏览量': shenzhen_views, '网址': shenzhen_link}) 
                 
             shenzhen_career.append(shenzhen_table)
         
@@ -150,8 +150,8 @@ def teacherCareerHTJS(url, today, yesterday):
         huatu_jobid = 'Unknown'
         
         huatu_career = pd.DataFrame({'编号': huatu_jobid, '单位名称': huatu_company, 
-                                       '招聘职位': huatu_job, '发布时间': huatu_date, 
-                                       '浏览量': huatu_views, '网址': huatu_link}) 
+                                     '招聘职位': huatu_job, '发布时间': huatu_date, 
+                                     '浏览量': huatu_views, '网址': huatu_link}) 
         
         # huatu_career.sort_values('发布时间', ascending = False, inplace = True)
     
