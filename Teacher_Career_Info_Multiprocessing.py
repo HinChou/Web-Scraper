@@ -63,7 +63,7 @@ def teacherCareerSCNU(url, today, yesterday):
         
         # Extract the career info only was issued yesterday and today
         new_scnu_jobs = gzsz_career[(gzsz_career['发布时间'] == today) |
-                                         (gzsz_career['发布时间'] == yesterday)]
+                                    (gzsz_career['发布时间'] == yesterday)]
         
         return(new_scnu_jobs)    
                               
@@ -79,8 +79,8 @@ def teacherCareerSZJS(url, today, yesterday):
     shenzhen_career = []
     
     areas = ['gongbanxuexiao','longhuaqu','dapengqu','pingshan','baoanqu',
-            'nanshanqu','futianqu','yantianqu','luohuqu', 'longgangqu' , 
-            'guangmingxinqu']
+             'nanshanqu','futianqu','yantianqu','luohuqu', 'longgangqu' , 
+             'guangmingxinqu']
                 
     for area in areas:        
         try:
@@ -119,7 +119,7 @@ def teacherCareerSZJS(url, today, yesterday):
     
     # Extract the career info only was issued yesterday and today
     new_shenzhen_career = shenzhen_career[(shenzhen_career['发布时间'] == today) |
-                                         (shenzhen_career['发布时间'] == yesterday)]
+                                          (shenzhen_career['发布时间'] == yesterday)]
     
     return(new_shenzhen_career)                                      
                                                                       
@@ -157,7 +157,7 @@ def teacherCareerHTJS(url, today, yesterday):
     
         # Extract the career info only was issued yesterday and today
         new_huatu_career = huatu_career[(huatu_career['发布时间'] == today) |
-                                         (huatu_career['发布时间'] == yesterday)]     
+                                        (huatu_career['发布时间'] == yesterday)]     
                                       
         return(new_huatu_career)                                                                            
                                                                                     
@@ -199,7 +199,7 @@ def teacherCareerLHJY(url, today, yesterday):
     
         # Extract the career info only was issued yesterday and today
         new_luohu_career = luohu_career[(luohu_career['发布时间'] == today) |
-                                         (luohu_career['发布时间'] == yesterday)]
+                                        (luohu_career['发布时间'] == yesterday)]
                                       
         return(new_luohu_career)  
         
@@ -221,7 +221,7 @@ def teacherCareerZGJY(url, today, yesterday):
                                    str(zhonggong_info))
         zhonggong_date = ['-'.join(re.findall('\d+', ele)) for ele in zhonggong_date]
         zhonggong_company = re.findall('title=\"(.*?)\">', 
-                                      str(zhonggong_info))[:len(zhonggong_date)]                                  
+                                       str(zhonggong_info))[:len(zhonggong_date)]                                  
         zhonggong_link = re.findall('<a href=\"(.*?)\" target=', str(zhonggong_info))[:len(zhonggong_date)]
         
         zhonggong_job = '中公教育网' 
@@ -240,7 +240,7 @@ def teacherCareerZGJY(url, today, yesterday):
         
         # Extract the career info only was issued yesterday and today
         new_zhonggong_career = gzsz_zhonggong_career[(gzsz_zhonggong_career['发布时间'] == today) |
-                                         (gzsz_zhonggong_career['发布时间'] == yesterday)]
+                                                     (gzsz_zhonggong_career['发布时间'] == yesterday)]
         
         return(new_zhonggong_career)                                  
     
@@ -259,10 +259,10 @@ def teacherCareerZGJS(url, today, yesterday):
         zhonggong_js_info = zhonggong_js_info.findAll(name = 'li')
     
         zhonggong_js_link = re.findall('</a></font><a href=\"(.*?)\" target=', 
-                                    str(zhonggong_js_info))
+                                       str(zhonggong_js_info))
         
         zhonggong_js_date= re.findall('<span>(.*?)</span>', 
-                                   str(zhonggong_js_info))[:len(zhonggong_js_link)]
+                                      str(zhonggong_js_info))[:len(zhonggong_js_link)]
                                       
         zhonggong_js_date = ['-'.join(re.findall('\d+', ele)) for ele in zhonggong_js_date]
                             
@@ -289,7 +289,7 @@ def teacherCareerZGJS(url, today, yesterday):
         
         # Extract the career info only was issued yesterday and today
         new_zhonggong_js_career = gzsz_zhonggong_js_career[(gzsz_zhonggong_js_career['发布时间'] == today) |
-                                         (gzsz_zhonggong_js_career['发布时间'] == yesterday)]
+                                                           (gzsz_zhonggong_js_career['发布时间'] == yesterday)]
                                           
         return(new_zhonggong_js_career)                                  
     
