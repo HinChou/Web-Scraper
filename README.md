@@ -14,7 +14,7 @@ Using multiprocessing Module to Aggregate Information from Several Websites
 
 ### Questions
 * Why multiprocessing? Why threading? Differences between multiprocessing & threading.
-* What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
+* What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules :( ).
 
 ### Thoughts
 * DataFrame & Series object have a nice feature about handling the missing data than list, array and dict.
