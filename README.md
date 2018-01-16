@@ -17,6 +17,6 @@ Using multiprocessing Module to Aggregate Information from Several Websites
 * What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
 
 ### Thoughts
-* DataFrame & Series object have a nice feature about handling the missing data than list, array and dict.
+* DataFrame & Series objects have a nice feature about handling the missing data than list, array and dict.
 * Exception handlings are important in web scraping.
 * To avoid blocking by servers (Eg: hit limits & robot detectors), try to include a sleep time, a fake dynamic ip or a fake header in the crawler.
