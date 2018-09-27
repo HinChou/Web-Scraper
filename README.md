@@ -14,6 +14,14 @@ Using multiprocessing Module to Aggregate Information from Several Websites
 
 ### Questions
 * Why multiprocessing? Why threading? Differences between multiprocessing & threading.
+
+----------
+Depending on the application, two common approaches in parallel programming are either to run code via threads or multiple processes, respectively. If we submit “jobs” to different threads, those jobs can be pictured as “sub-tasks” of a single process and those threads will usually have access to the same memory areas (i.e., shared memory). This approach can easily lead to conflicts in case of improper synchronization, for example, if processes are writing to the same memory location at the same time.
+
+A safer approach (although it comes with an additional overhead due to the communication overhead between separate processes) is to submit multiple processes to completely separate memory locations (i.e., distributed memory): Every process will run completely independent from each other.
+
+----------
+
 * Can we use GPU for web scraping?
 * What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
 
