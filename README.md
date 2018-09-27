@@ -20,6 +20,8 @@ Depending on the application, two common approaches in parallel programming are 
 
 A safer approach (although it comes with an additional overhead due to the communication overhead between separate processes) is to submit multiple processes to completely separate memory locations (i.e., distributed memory): Every process will run completely independent from each other.
 
+References: https://sebastianraschka.com/Articles/2014_multiprocessing.html
+
 ----------
 
 * Can we use GPU for web scraping?
