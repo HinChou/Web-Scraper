@@ -6,7 +6,7 @@ Las Vegas Opening and Closing Line of Tennis from www.donbest.com
 2. MLB Data:
 Pitcher and Batter Matchup Data from www.mlb.com
 
-2. Houses for Rent Data:
+2. Houses for Rental Data:
 Houses for Rent Data from www.58.com
 
 4. Teacher Employment Information Data: 
