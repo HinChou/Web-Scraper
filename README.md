@@ -1,7 +1,7 @@
 # Web-Scraper Projects
 
 1. Tennis Data:
-Las Vegas Opening and Closing Line of Tennis from www.donbest.com
+Las Vegas Opening and Closing Lines of Tennis from www.donbest.com
 
 2. MLB Data:
 Pitchers and Batters Matchup Data from www.mlb.com
