@@ -7,7 +7,7 @@ Las Vegas Opening and Closing Lines of Tennis from www.donbest.com
 Pitchers and Batters Matchup Data from www.mlb.com
 
 2. Houses for Rental Data:
-Data from www.58.com
+Rental Data from www.58.com
 
 4. Teacher Employment Information Data: 
 Using multiprocessing Module to Aggregate Information from Several Websites
