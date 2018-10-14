@@ -25,7 +25,7 @@ Reference: https://sebastianraschka.com/Articles/2014_multiprocessing.html
 ----------
 
 * Can we use GPU for web scraping?
-* What is the best way to build an "exe"(application) file by Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
+* What is the best way to build an "exe"(application) file using Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
 
 ### Thoughts
 * DataFrame & Series objects have a nice feature about handling the missing data than list, array and dict.
