@@ -30,4 +30,4 @@ Reference: https://sebastianraschka.com/Articles/2014_multiprocessing.html
 ### Thoughts
 * DataFrame & Series objects have a nice feature about handling the missing data than list, array and dict.
 * Exception handlings are important in web scraping.
-* To avoid blocking by servers (Eg: hit limits & robot detectors), try to include a sleep time, a fake dynamic ip or a fake header in the crawler.
+* To avoid blocking by servers (Eg: hit limits & robot detectors), try to include a sleep time, a fake dynamic ip or a fake header in the crawler...
