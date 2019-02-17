@@ -24,7 +24,7 @@ Reference: https://sebastianraschka.com/Articles/2014_multiprocessing.html
 
 ----------
 
-* Can we use GPU for web scraping? LOL
+* Can we use GPU for web scraping? LOL :)
 * What is the best way to build an "exe"(application) file using Python? (Tried "py2exe", "PyInstaller" and "cx-freeze". All have their own flaws if I imported many modules).
 
 ### Thoughts
